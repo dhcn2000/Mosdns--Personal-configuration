@@ -1,20 +1,13 @@
 #!/bin/bash
 
 # 检查 /usr/local/bin 目录下是否已经存在 Mosdns 文件
-if [ ! -f /usr/local/bin/Meta ]; then
+if [ ! -f /usr/local/bin/Mosdns ]; then
   echo "Mosdns 文件不存在，执行安装操作..."
   chmod +x /root/mosdns.sh
   sudo mv /root/mosdns.sh /usr/local/bin/Mosdns
 else
-  echo "Meta 文件已存在，跳过安装操作。"
+  echo "Mosndns 文件已存在，跳过安装操作。"
 fi
-
-# 定义变量
-MOSDNS_REPO="IrineSistiana/mosdns"
-CONFIG_REPO="https://github.com/oppen321/Mosdns--Personal-configuration/archive/refs/heads/main.zip"
-DOWNLOAD_DIR="/root"
-MOSDNS_DIR="$DOWNLOAD_DIR/mosdns"
-MOSDNS_EXEC="/usr/bin/mosdns"
 
 # 检测是否已经安装 mosdns
 if command -v mosdns >/dev/null; then
@@ -56,6 +49,14 @@ fi
 
 # 如果未安装，继续执行安装流程
 echo "mosdns not detected. Proceeding with installation."
+
+# 定义变量
+MOSDNS_REPO="IrineSistiana/mosdns"
+CONFIG_REPO="https://github.com/oppen321/Mosdns--Personal-configuration/archive/refs/heads/main.zip"
+DOWNLOAD_DIR="/root"
+MOSDNS_DIR="$DOWNLOAD_DIR/mosdns"
+MOSDNS_EXEC="/usr/bin/mosdns"
+
 
 # 创建下载目录
 mkdir -p "$MOSDNS_DIR"
