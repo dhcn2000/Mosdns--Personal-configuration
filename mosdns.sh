@@ -3,20 +3,37 @@
 # 定义变量
 MOSDNS_REPO="IrineSistiana/mosdns"
 CONFIG_REPO="https://github.com/oppen321/Mosdns--Personal-configuration/archive/refs/heads/main.zip"
-CONFIG_DIR="Mosdns--Personal-configuration-main"
 TMP_DIR=$(mktemp -d)
+
+# 检测设备架构
+ARCH=$(uname -m)
+case "$ARCH" in
+    x86_64)
+        ARCH_SUFFIX="amd64"
+        ;;
+    armv7l)
+        ARCH_SUFFIX="armv7"
+        ;;
+    aarch64)
+        ARCH_SUFFIX="arm64"
+        ;;
+    *)
+        echo "Unsupported architecture: $ARCH"
+        exit 1
+        ;;
+esac
 
 # 获取最新的 mosdns 发行版信息
 LATEST_RELEASE=$(curl -s "https://api.github.com/repos/${MOSDNS_REPO}/releases/latest")
-DOWNLOAD_URL=$(echo "$LATEST_RELEASE" | grep "browser_download_url" | grep "$(uname -m)" | cut -d '"' -f 4)
+DOWNLOAD_URL=$(echo "$LATEST_RELEASE" | grep "browser_download_url" | grep "mosdns-linux-${ARCH_SUFFIX}.zip" | cut -d '"' -f 4)
 
 if [ -z "$DOWNLOAD_URL" ]; then
-    echo "No suitable mosdns release found for architecture $(uname -m)."
+    echo "No suitable mosdns release found for architecture $ARCH."
     exit 1
 fi
 
 # 下载 mosdns 发行版
-MOSDNS_ARCHIVE="${TMP_DIR}/mosdns.zip"
+MOSDNS_ARCHIVE="${TMP_DIR}/mosdns-linux-${ARCH_SUFFIX}.zip"
 wget "$DOWNLOAD_URL" -O "$MOSDNS_ARCHIVE"
 
 # 下载并解压配置文件
