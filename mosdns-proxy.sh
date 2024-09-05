@@ -80,7 +80,7 @@ case "$ARCH" in
 esac
 
 # 获取最新的 mosdns 发行版信息
-LATEST_RELEASE=$(curl -s "https://api.github.com/repos/${MOSDNS_REPO}/releases/latest")
+LATEST_RELEASE=$(curl -s "https://raw.githubusercontent.com/oppen321/Mosdns--Personal-configuration/main/mosdns.api")
 DOWNLOAD_URL=$(echo "$LATEST_RELEASE" | grep "browser_download_url" | grep "mosdns-linux-${ARCH_SUFFIX}.zip" | cut -d '"' -f 4)
 
 if [ -z "$DOWNLOAD_URL" ]; then
