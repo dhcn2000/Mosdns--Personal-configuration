@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# 检查 /usr/local/bin 目录下是否已经存在 Mosdns 文件
+if [ ! -f /usr/local/bin/Meta ]; then
+  echo "Mosdns 文件不存在，执行安装操作..."
+  chmod +x /root/mosdns.sh
+  sudo mv /root/mosdns.sh /usr/local/bin/Mosdns
+else
+  echo "Meta 文件已存在，跳过安装操作。"
+fi
+
 # 定义变量
 MOSDNS_REPO="IrineSistiana/mosdns"
 CONFIG_REPO="https://github.com/oppen321/Mosdns--Personal-configuration/archive/refs/heads/main.zip"
