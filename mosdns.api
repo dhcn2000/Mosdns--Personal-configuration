@@ -65,7 +65,7 @@
       "download_count": 65,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:50Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-darwin-amd64.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-darwin-amd64.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938766",
@@ -99,7 +99,7 @@
       "download_count": 35,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:50Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-darwin-arm64.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-darwin-arm64.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938764",
@@ -133,7 +133,7 @@
       "download_count": 16,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:50Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-freebsd-amd64.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-freebsd-amd64.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938763",
@@ -167,7 +167,7 @@
       "download_count": 826,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:50Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-amd64.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-amd64.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938761",
@@ -201,7 +201,7 @@
       "download_count": 12,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:50Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-arm-5.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-arm-5.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938758",
@@ -235,7 +235,7 @@
       "download_count": 4,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:50Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-arm-6.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-arm-6.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938762",
@@ -269,7 +269,7 @@
       "download_count": 43,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:50Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-arm-7.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-arm-7.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938760",
@@ -303,7 +303,7 @@
       "download_count": 203,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:50Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-arm64.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-arm64.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938756",
@@ -337,7 +337,7 @@
       "download_count": 18,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:49Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-mips64le-hardfloat.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-mips64le-hardfloat.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938757",
@@ -371,7 +371,7 @@
       "download_count": 13,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:49Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-mipsle-softfloat.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-mipsle-softfloat.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938755",
@@ -405,7 +405,7 @@
       "download_count": 7,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:49Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-ppc64le.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-linux-ppc64le.zip"
     },
     {
       "url": "https://api.github.com/repos/IrineSistiana/mosdns/releases/assets/185938759",
@@ -439,7 +439,7 @@
       "download_count": 160,
       "created_at": "2024-08-14T14:31:49Z",
       "updated_at": "2024-08-14T14:31:50Z",
-      "browser_download_url": "https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-windows-amd64.zip"
+      "browser_download_url": "https://mirror.ghproxy.com/https://github.com/IrineSistiana/mosdns/releases/download/v5.3.3/mosdns-windows-amd64.zip"
     }
   ],
   "tarball_url": "https://api.github.com/repos/IrineSistiana/mosdns/tarball/v5.3.3",
