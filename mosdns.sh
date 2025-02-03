@@ -52,7 +52,7 @@ echo "mosdns not detected. Proceeding with installation."
 
 # 定义变量
 MOSDNS_REPO="IrineSistiana/mosdns"
-CONFIG_REPO="https://github.com/oppen321/Mosdns--Personal-configuration/archive/refs/heads/main.zip"
+CONFIG_REPO="https://gh-proxy.com/https://github.com/dhcn2000/Mosdns--Personal-configuration/archive/refs/heads/main.zip"
 DOWNLOAD_DIR="/root"
 MOSDNS_DIR="$DOWNLOAD_DIR/mosdns"
 MOSDNS_EXEC="/usr/bin/mosdns"
@@ -80,7 +80,7 @@ case "$ARCH" in
 esac
 
 # 获取最新的 mosdns 发行版信息
-LATEST_RELEASE=$(curl -s "https://api.github.com/repos/${MOSDNS_REPO}/releases/latest")
+LATEST_RELEASE=$(curl -s "https://gh-proxy.com/https://api.github.com/repos/${MOSDNS_REPO}/releases/latest")
 DOWNLOAD_URL=$(echo "$LATEST_RELEASE" | grep "browser_download_url" | grep "mosdns-linux-${ARCH_SUFFIX}.zip" | cut -d '"' -f 4)
 
 if [ -z "$DOWNLOAD_URL" ]; then
